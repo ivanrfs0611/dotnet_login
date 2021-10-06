@@ -148,7 +148,7 @@ input[type="Password"] {
 
 .btn-primary {
     color: #fff;
-    background-color: #9146ff;
+    background-color: #45b4d6;
     margin-top: 30px;
     outline: none;
     width: 100%;
@@ -166,10 +166,10 @@ input[type="Password"] {
 }
 
 
-.btn-primary:hover {
-    background-color: #7d32eb;
-    color: #fff;
-}
+    .btn-primary:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
 
 .form-row.bottom {
     display: flex;
@@ -265,12 +265,12 @@ p.account a {
     padding-top: 20px;
     padding-bottom: 0px;
     font-size: 16px;
-    color: #888;
+    color: #45b4d6;
 }
 
-p.account a {
-    color: #9146ff;
-}
+    p.account a {
+        color: #45b4d6;
+    }
 
 p.account a:hover {
     text-decoration: underline;
@@ -597,6 +597,12 @@ span.fab{
     .footer p a {
         font-size: 13px;
     }
+}
+
+.logo_ot {
+    border-radius: 4px;
+    width: 250px;
+    margin-left: 7.5em;
 }
 
 /** /Responsive **/

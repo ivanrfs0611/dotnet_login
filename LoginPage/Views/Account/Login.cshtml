@@ -1,49 +1,39 @@
-<!DOCTYPE html>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    <link href="~/wwwroot/css/style.css" rel="stylesheet" />
-</head>
-<body>
-    <script href="~/wwwroot/js/fontawesome.js"></script>
-    <div class="signinform">
-        <h1>Service Login Form</h1>
-        <!-- container -->
-        <div class="container">
-            <!-- main content -->
-            <div class="div-form-info">
-                <div class="divOut_info">
-                    <h2>Login</h2>
-                    <form action="Verify" method="post">
-                        <div class="input-group">
-                            <span><i class="fas fa-user" aria-hidden="true"></i></span>
-                            <input type="email" name="Email" placeholder="Username or Email" required="">
-                        </div>
-                        <div class="input-group">
-                            <span><i class="fas fa-key" aria-hidden="true"></i></span>
-                            <input type="Password" name="Password" placeholder="Password" required="">
-                        </div>
-                        <div class="form-row bottom">
-                            <div class="form-check">
-                                <input type="checkbox" id="remenber" name="remenber" value="remenber">
-                                <label for="remenber"> Remember me?</label>
-                            </div>
-                            <a href="#url" class="forgot">Forgot password?</a>
-                        </div>
-                        <button class="btn btn-primary btn-block" type="submit">Login</button>
-                    </form>
-                    <p class="account">Don't have an account? <a href="#signup">Sign up</a></p>
+
+<img src="/image/NewVenusSyn.png" class="logo_ot">
+<!-- container -->
+<div class="container">
+    <!-- main content -->
+    <div class="div-form-info">
+        <div class="divOut_info">
+            <h2>Login</h2>
+            <form action="Verify" method="post">
+                <div class="input-group">
+                    <span><i class="fas fa-user" aria-hidden="true"></i></span>
+                    <input type="email" name="Email" placeholder="Username or Email" required="">
                 </div>
-            </div>
-            <!-- //main content -->
+                <div class="input-group">
+                    <span><i class="fas fa-key" aria-hidden="true"></i></span>
+                    <input type="Password" name="Password" placeholder="Password" required="">
+                </div>
+                <div class="form-row bottom">
+                    <div class="form-check">
+                        <input type="checkbox" id="remenber" name="remenber" value="remenber">
+                        <label for="remenber"> Remember me?</label>
+                    </div>
+                    <a href="#url" class="forgot">Forgot password?</a>
+                </div>
+                <button class="btn btn-primary btn-block" type="submit">Login</button>
+            </form>
+            <p class="account"><a href="#signup">Register Your Company</a></p>
         </div>
-        <!-- //container -->
-        <!-- footer -->
-        <!-- footer -->
     </div>
-</body>
-</html>
-
-
+    <!-- //main content -->
+</div>
+<!-- //container -->
+<!-- footer -->
+<!-- footer -->
