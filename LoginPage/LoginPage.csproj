@@ -7,7 +7,6 @@
   <ItemGroup>
     <None Remove="MySql.Data" />
     <None Remove="MySql.Data.EntityFrameworkCore" />
-    <None Remove="Views\Account\" />
     <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
     <None Remove="styles\" />
     <None Remove="bootstrap" />
@@ -21,7 +20,6 @@
     <PackageReference Include="FontAwesome" Version="4.7.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Account\" />
     <Folder Include="styles\" />
     <Folder Include="wwwroot\image\" />
   </ItemGroup>
